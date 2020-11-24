@@ -1,0 +1,22 @@
+trigger:
+- lab01
+
+pool:
+  vmImage: 'windows-latest'
+
+stages:
+- stage: Build
+  displayName: Build stage
+  
+  jobs:
+  - job: BuildJob
+    displayName: Build
+
+    steps:
+    - task: PowerShell@2
+      inputs:
+        targetType: 'inline'
+        script: |
+          # Write your PowerShell commands here.
+          
+          Write-Host "Hello World"
