@@ -10,7 +10,7 @@ stages:
   
   jobs:
   - job: BuildJob
-    displayName: Build
+    displayName: Build Job
 
     steps:
     - task: PowerShell@2
