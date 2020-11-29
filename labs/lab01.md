@@ -20,8 +20,8 @@ steps:
       Write-Host "Hello World"
 ```
 
-4. Save and commit your change
+4. Save and commit your change.
 
 ## Will the pipeline run automatically? Why or why not?
 
-5. Ensure that your pipeline runs
+5. Ensure that your pipeline runs.
