@@ -1,7 +1,8 @@
-# Introduction 
+# Lab 01
+## Introduction 
 In lab one we will create the basis for our yaml pipeline.
 
-# Lab 01
+## Tasks
 1. In your repository create a branch called lab01.
 2. Make lab01 your working branch.
 3. Add a file with the ".yml" extension in your branch and add the following content to the file.
@@ -21,6 +22,6 @@ steps:
 
 4. Save and commit your change
 
-# Will the pipeline run automatically? Why or why not?
+## Will the pipeline run automatically? Why or why not?
 
 5. Ensure that your pipeline runs
