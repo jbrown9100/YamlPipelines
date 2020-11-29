@@ -1,0 +1,7 @@
+trigger:
+  - lab02
+  
+variables:
+    world: the whole world
+  
+steps:
