@@ -18,3 +18,9 @@ steps:
       # Write your PowerShell commands here.
       Write-Host "Hello World"
 ```
+
+4. Save and commit your change
+
+# Will the pipeline run automatically?
+
+5. Ensure that your pipeline runs
