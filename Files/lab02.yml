@@ -1,0 +1,13 @@
+trigger:
+  - lab02
+  
+variables:
+    world: the whole world
+  
+steps:
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      # Write your PowerShell commands here.
+      Write-Host "Hello $(world)"
