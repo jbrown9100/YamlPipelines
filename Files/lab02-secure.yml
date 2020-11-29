@@ -1,7 +1,14 @@
 trigger:
-  - lab02
+  - none
   
 variables:
-    world: the whole world
+- group: VarGroups
   
 steps:
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      # Write your PowerShell commands here.
+      
+      Write-Host "This is what you see with a Key Vault secret $(prodDb-connection-string) using a variable group from the Library"
