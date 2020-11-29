@@ -2,7 +2,7 @@ trigger:
   - none
   
 variables:
-- group: VarGroups
+- group: VarGroup
   
 steps:
 - task: PowerShell@2
