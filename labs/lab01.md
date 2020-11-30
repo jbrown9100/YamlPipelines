@@ -21,6 +21,9 @@ steps:
 ```
 
 4. Save and commit your change.
+5. Navigate to Pipelines in Pipelines.
+6. Create a new pipeline as follows.
+
 
 ## Will the pipeline run automatically? Why or why not?
 
