@@ -24,7 +24,16 @@ steps:
 5. Navigate to Pipelines in Pipelines.
 6. Create a new pipeline as follows.
 
+![Create](./images/create_img_001.png)
 
-## Will the pipeline run automatically? Why or why not?
+![Existing YAML](./images/create_img_002.png)
+
+![Select](./images/create_img_003.png)
+
+![Use](./images/create_img_004.png)
+
+### **Once you select to continue you will be taken to an editor with you YAML file loaded.**
+
+## **Will the pipeline run automatically? Why or why not?**
 
 5. Ensure that your pipeline runs.
