@@ -9,7 +9,9 @@
 
 # Additional resource
 [Shrink your Azure Devops YAML pipelines](https://damienaicheh.github.io/azure/devops/2020/09/30/shrink-azure-devops-yaml-pipelines-en.html)
+
 [Manage release flow using pipelines in Azure DevOps](https://daniel-krzyczkowski.github.io/Manage-Release-Flow-Using-Pipelines-In-Azure-DevOps/)
+
 [How to extend your Azure DevOps YAML templates](https://damienaicheh.github.io/azure/devops/2020/11/12/extend-azure-devops-yaml-pipelines-en.html)
 
 ## **Coming Soon**
