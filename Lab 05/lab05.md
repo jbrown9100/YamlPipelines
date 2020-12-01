@@ -11,7 +11,7 @@ trigger:
 - none
 
 variables:
-  world: the whole world
+  world: the best of both worlds
 
 stages:
   - stage: Build
@@ -41,3 +41,4 @@ stages:
 4. Ensure that your pipeline runs.
 
 ## How did the pipeline treat the variable **Stages**?
+## Go to the Environments menu after your pipeline runs and what do you find?
