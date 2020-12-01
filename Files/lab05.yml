@@ -1,0 +1,28 @@
+trigger:
+- none
+
+variables:
+  world: the whole world
+
+stages:
+  - stage: Build
+    jobs: 
+      - template: lab04-template.yml
+        parameters: 
+          world: A different kind of world!
+  
+  - stage: Deploy
+    jobs:
+      - deployment: scriptDeploy
+        displayName: Run my script
+        environment: 'Dev'
+        strategy:
+          runOnce:
+            deploy:
+              steps:
+                - task: PowerShell@2
+                  inputs:
+                    targetType: 'inline'
+                    script: |
+                      # Write your PowerShell commands here.
+                      Write-Host "Hello $(world)"

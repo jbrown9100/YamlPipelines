@@ -1,6 +1,6 @@
 # Lab 03
 ## Introduction 
-In lab we will explore the use of variables.
+In lab we will explore the use of jobs.
 
 ## Tasks
 1. Modify your YAML file to add your jobs as seen below.

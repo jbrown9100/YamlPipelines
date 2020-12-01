@@ -1,6 +1,6 @@
-# Lab 03
+# Lab 04
 ## Introduction 
-In lab we will explore the use of variables.
+In lab we will explore the use of templates.
 
 ## Tasks
 1. In addition to your existing YAML file add a second ".yml" for the template content.

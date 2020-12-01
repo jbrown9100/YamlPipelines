@@ -1,5 +1,6 @@
 parameters:
-    world: ''
+  - name: world
+    type: string
 
 jobs:
   - job: A
@@ -11,7 +12,7 @@ jobs:
         script: |
           # Write your PowerShell commands here.
           Write-Host "Hello $(world)"
-          
+
   - job: B
     displayName: Second Job
     steps:
