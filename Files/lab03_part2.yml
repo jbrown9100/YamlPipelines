@@ -1,0 +1,30 @@
+trigger:
+- none
+
+variables:
+  world: the whole world
+
+jobs: 
+  - job: A
+    displayName: First Job
+    steps:
+    - task: PowerShell@2
+      inputs:
+        targetType: 'inline'
+        script: |
+          # Write your PowerShell commands here.
+          Write-Host "Hello $(world)"
+          
+  - job: B
+    displayName: Second Job
+    dependsOn: A
+    condition: succeeded()
+    variables:
+      world: traditional world
+    steps:
+    - task: PowerShell@2
+      inputs:
+        targetType: 'inline'
+        script: |
+          # Write your PowerShell commands here.
+          Write-Host "Hello $(world)"

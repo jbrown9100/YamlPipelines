@@ -1,0 +1,10 @@
+trigger:
+- none
+
+variables:
+  world: the whole world
+
+jobs: 
+  - template: lab04-template.yml
+    parameters: 
+       world: A different kind of world!
