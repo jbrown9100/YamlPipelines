@@ -7,7 +7,7 @@
 4. [Lab 04](./lab_04/lab04.md)
 5. [Lab 05](./lab_05/lab05.md)
 
-# Additional resource
+## Additional resource
 [Shrink your Azure Devops YAML pipelines](https://damienaicheh.github.io/azure/devops/2020/09/30/shrink-azure-devops-yaml-pipelines-en.html)
 
 [Manage release flow using pipelines in Azure DevOps](https://daniel-krzyczkowski.github.io/Manage-Release-Flow-Using-Pipelines-In-Azure-DevOps/)
