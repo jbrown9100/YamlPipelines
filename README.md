@@ -1,2 +1,3 @@
 # Getting started
-## YAML pipelines in Azure DevOps Lab one.
+## YAML pipelines in Azure DevOps.
+
