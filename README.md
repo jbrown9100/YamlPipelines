@@ -14,5 +14,7 @@
 
 [How to extend your Azure DevOps YAML templates](https://damienaicheh.github.io/azure/devops/2020/11/12/extend-azure-devops-yaml-pipelines-en.html)
 
+[YAML Documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema?view=azure-devops&tabs=schema%2Cparameter-schema)
+
 ## **Coming Soon**
 [Replacing “View YAML”](https://devblogs.microsoft.com/devops/replacing-view-yaml/)
