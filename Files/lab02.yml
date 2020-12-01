@@ -12,6 +12,7 @@ steps:
     script: |
       # Write your PowerShell commands here.
       Write-Host "Hello $(world)"
+      
 - task: PowerShell@2
   displayName: Using Pipeline Var
   inputs:
